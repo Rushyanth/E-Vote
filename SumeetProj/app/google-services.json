@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "94765948242",
+    "firebase_url": "https://sumeetproj.firebaseio.com",
+    "project_id": "sumeetproj",
+    "storage_bucket": "sumeetproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94765948242:android:3983599196eabdb7",
+        "android_client_info": {
+          "package_name": "com.example.rushyanthreddy.sumeetproj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94765948242-df8h7f17r21u2beato3bknjhbqj44v1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0nW-7UUmGF2wm5SJfXqRvRDVnfs2zcBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

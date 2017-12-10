@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Of Votes"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/poll_number_textview"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BJP: "
+        android:layout_below="@+id/poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/yes_textview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/yes_poll_number_textview"
+        android:layout_toRightOf="@+id/yes_textview"
+        android:layout_below="@+id/poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONGRESS: "
+        android:layout_below="@+id/yes_poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/no_textview"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/no_poll_number_textview"
+        android:layout_toRightOf="@+id/no_textview"
+        android:layout_below="@+id/yes_poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total No of Votes:"
+        android:id="@+id/total_poll_textview"
+        android:layout_below="@+id/no_poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/total_poll_number_textview"
+        android:layout_toRightOf="@+id/total_poll_textview"
+        android:layout_below="@+id/no_poll_number_textview"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GIVE VOTE"
+        android:id="@+id/poll_button"
+        android:layout_below="@+id/no_poll_number_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/button_logout"
+        android:layout_below="@+id/poll_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

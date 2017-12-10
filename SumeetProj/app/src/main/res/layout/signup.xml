@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIII"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="First Name"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/signup_edittext_FirstName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Last Name"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/signup_edittext_FirstName"
+        android:id="@+id/signup_edittext_LastName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Email"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/signup_edittext_LastName"
+        android:id="@+id/signup_edittext_Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/signup_edittext_Email"
+        android:id="@+id/signup_edittext_Password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Retype Password"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/signup_edittext_Password"
+        android:id="@+id/signup_edittext_RetypePassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="PhoneNumber"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/signup_edittext_RetypePassword"
+        android:id="@+id/signup_edittext_PhoneNumber"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/signup_edittext_PhoneNumber"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_shape"
+        android:text="CREATE ACCOUNT"
+        android:textSize="20dp"
+        android:id="@+id/signup_button_createaccount"/>
+</RelativeLayout>
